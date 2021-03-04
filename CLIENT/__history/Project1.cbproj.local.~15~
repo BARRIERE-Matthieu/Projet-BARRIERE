@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/28 10:12:00.000.762,=C:\Users\mbarriere\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2021/01/28 10:12:00.000.909,=C:\Users\mbarriere\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2021/01/28 10:12:27.000.644,C:\Users\mbarriere\Desktop\BARRIERE PROJET\File1.cpp=C:\Users\mbarriere\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2021/01/28 10:12:40.000.554,C:\Users\mbarriere\Desktop\BARRIERE PROJET\Project1PCH1.h=C:\Users\mbarriere\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2021/01/28 10:12:41.000.624,C:\Users\mbarriere\Desktop\BARRIERE PROJET\Project1.cbproj=C:\Users\mbarriere\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+    <Transaction>2021/01/28 10:20:38.000.988,=C:\Users\mbarriere\Desktop\BARRIERE PROJET\SNClientTCP.h</Transaction>
+    <Transaction>2021/01/28 10:20:49.000.769,=C:\Users\mbarriere\Desktop\BARRIERE PROJET\SNClientTCP.cpp</Transaction>
+    <Transaction>2021/01/28 10:27:47.000.938,=C:\Users\mbarriere\Desktop\BARRIERE PROJET\SNServeurTcpMonoClient.h</Transaction>
+    <Transaction>2021/01/28 10:28:02.000.314,=C:\Users\mbarriere\Desktop\BARRIERE PROJET\SNServeurTcpMonoClient.cpp</Transaction>
+    <Transaction>2021/01/28 10:29:17.000.403,C:\Users\mbarriere\Desktop\BARRIERE PROJET\File1.cpp=C:\Users\mbarriere\Desktop\BARRIERE PROJET\main.cpp</Transaction>
+    <Transaction>2021/03/02 14:27:25.000.084,C:\Users\mbarriere\Desktop\CLIENT\SNServeurTcpMonoClient.cpp=</Transaction>
+    <Transaction>2021/03/02 14:27:29.000.305,C:\Users\mbarriere\Desktop\CLIENT\SNServeurTcpMonoClient.h=</Transaction>
+  </Transactions>
+</BorlandProject>

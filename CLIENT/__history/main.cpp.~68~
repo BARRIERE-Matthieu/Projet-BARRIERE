@@ -1,0 +1,38 @@
+#pragma hdrstop
+#pragma argsused
+
+#ifdef _WIN32
+#include <tchar.h>
+#else
+  typedef char _TCHAR;
+  #define _tmain main
+#endif
+
+#include "SNClientTCP.h"
+#include <stdio.h>
+#include <iostream>
+#include <cstring>
+#include <windows.h>
+
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	SNClientTCP 			 myClient;
+	string                   IPServeur;
+	int                      message[1500] = {0x01,0x06,0x16,0x65,0x00,0x01,0x5C,0x5D};
+	int                      tailleMessage = 8;
+
+	cout << "Saisissez l'IP du serveur" << endl;
+	cin >> IPServeur;
+
+	myClient.SeConnecterAUnServeur(IPServeur, 1066);
+
+	myClient.Envoyer(message, tailleMessage);
+	tailleMessage = myClient.Recevoir(message, 1500);
+
+
+	cin.get();
+   	cin.get();
+	return 0;
+}
